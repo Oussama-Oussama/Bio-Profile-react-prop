@@ -9,6 +9,9 @@
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.6);
 }
+.card:hover {
+    box-shadow: 5px 5px 10px 6px aqua;
+}
 .image {
     width: 100%;
     height: 60%;

@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-function MovieList({ data }) {
+function MovieList({ data, setVid }) {
   return (
     <div
       style={{
@@ -17,7 +17,7 @@ function MovieList({ data }) {
       }}
     >
       {data.map((el, i) => {
-        return <Card key={i} item={el} />;
+        return <Card key={i} item={el} setVid={setVid} />;
       })}
     </div>
   );
