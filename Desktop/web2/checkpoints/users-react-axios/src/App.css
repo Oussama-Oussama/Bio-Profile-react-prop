@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.user {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 24, 24);
+}
+.user h1 {
+  text-align: center;
+  color: gold;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+}
